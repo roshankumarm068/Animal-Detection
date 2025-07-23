@@ -11,6 +11,7 @@ from tkinter import messagebox
 # CONFIGURATION SETTINGS
 # ================================
 VIDEO_SOURCE = 0
+# test comment 
 CONFIDENCE_THRESHOLD = 0.4
 OUTPUT_DIR = 'output'
 LOG_FILE = os.path.join(OUTPUT_DIR, 'detection_log.txt')
@@ -28,6 +29,7 @@ ANIMAL_CLASSES = [
     'bee', 'ant', 'butterfly', 'moth', 'dragonfly', 'grasshopper', 'ladybug', 'spider', 'scorpion',
     'snail', 'slug', 'worm', 'centipede', 'millipede'
 ]
+myvar = "test"
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
